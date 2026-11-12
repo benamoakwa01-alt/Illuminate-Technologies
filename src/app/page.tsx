@@ -1,4 +1,5 @@
-                  <textarea value={a.currentOrderProcess} onChange={(e) => update("currentOrderProcess", e.target.value)} rows={3} placeholder="For example, WhatsApp messages, notebooks, spreadsheets, phone calls or an existing system." className="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm outline-none focus:border-sky-600 focus:ring-4 focus:ring-sky-100" />
+                <Field label={operationsLabel}>
+                  <textarea value={a.currentOrderProcess} onChange={(e) => update("currentOrderProcess", e.target.value)} rows={3} placeholder="Describe the steps you currently follow, the tools you use and any difficulties or delays you experience." className="w-full rounded-xl border border-slate-200 px-4 py-3 text-sm outline-none focus:border-sky-600 focus:ring-4 focus:ring-sky-100" />
                 </Field>
 
                 <Field label="Do you currently use any software, website or digital tools to run the business?">
